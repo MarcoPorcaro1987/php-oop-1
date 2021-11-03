@@ -16,12 +16,24 @@ class Movie{
         $this-> language = $_language;
     }
 
-    public function setMovie($_title){
+    public function setTitle($_title){
         if ($_title != "Tre metri sopra il cielo"){
             $this-> title = $_title;
         }
     }
-    public function getMovie(){
+    public function getTitle(){
         return $this -> title;
+    }
+    public function getYear(){
+        return $this -> year;
+    }
+    public function getRegist(){
+        return $this -> regist;
+    }
+    public function getLength(){
+        return $this -> length;
+    }
+    public function getLanguage(){
+        return $this -> language;
     }
 } 

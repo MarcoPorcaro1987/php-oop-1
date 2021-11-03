@@ -8,7 +8,7 @@ metodi d'istanza che abbiamo visto stamattina e create un file index.php in cui:
 
 <?php
 
-require __DIR__. "./classes/Movie.php";
+require __DIR__. "/classes/Movie.php";
 
 $film1 = new Movie( "Rambo", 1982, "Ted Kotcheff", "93 min", "English");
 $film2 = new Movie( "Robocop", 1987, "Paul Verhoeven", "102 min", "English");
